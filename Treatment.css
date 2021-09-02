@@ -1,0 +1,29 @@
+.treatment-container
+{
+    background-color: white;
+    /* margin-top: 5px; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.add-button
+{
+   margin-left: 470px;
+   margin-bottom: 10px;
+}
+.input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  input[type=checkbox]:checked + label>img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px 3px #090;
+  }
+  
+  /* Stuff after this is only to make things more pretty */
+  /* input[type=radio] + label>img {
+    border: 1px #444;
+    width: 150px;
+    height: 150px;
+    transition: 500ms all;
+  } */

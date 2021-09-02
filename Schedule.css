@@ -1,0 +1,16 @@
+@media (min-width: 768px){
+    .col-md-3 {
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+    }
+    .btn-schedule i{
+        margin-left: -140px;
+        margin-top: 10px;
+    }
+    .btn-schedule{
+        margin-left: 220px;
+    }
+    .MuiRadio-colorSecondary-24.MuiRadio-checked-21 {
+        color: #2e295f;
+    }

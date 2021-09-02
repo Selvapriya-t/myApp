@@ -1,0 +1,86 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-cont{
+        background-color: #fff;
+        margin-top: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main-cont{
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main-cont{
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main-cont{
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-cont{
+        background-color: rgb(255, 255, 255);
+        margin-top: 60px;
+        padding: 80px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-radius: 30px;
+    }
+    .button-doc{
+        margin-top: -60px;
+    }
+    .adddoc-butn{
+        margin-top: -1px;
+        text-align: right;
+   
+    }
+    .form-text{
+       margin-left: 100px;
+       margin-top:-80px;
+       padding: 20px;
+       
+    }
+    .list-heading{
+        margin-top: 10px;
+        padding-bottom: 60px;
+
+    }
+    .thead-css{
+        background: skyblue;
+        border-radius: 50px;
+     
+        
+    } 
+    .table-bordered thead td, .table-bordered thead th {
+        border-bottom-width: 9px;  
+      
+    }
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 9px solid #dee2e6b9;
+       
+    }
+   
+    
+    .table-bordered td, .table-bordered th {
+        border: 2px solid #dee2e6;
+    }
+   
+     
+}

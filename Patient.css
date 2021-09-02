@@ -1,0 +1,10 @@
+.box-Patient{
+    border: 90px solid transparent;
+    background-color:whitesmoke;
+   box-shadow: 5px 5px 5px 5px rgb(170, 167, 167);
+    width:900px;
+    height: 600px;
+    margin-top: 10px;
+   padding-left: 100px;
+    margin-left: 200px;
+}

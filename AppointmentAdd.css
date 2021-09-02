@@ -1,0 +1,73 @@
+
+.top-container {
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px 3px rgb(170, 167, 167);
+}
+.container-schedule {
+  border-left: 3px solid #3C64E5;
+  padding: 10px;
+  border-radius: 5px;
+}
+.container-schedule:hover {
+  background: #abb9ff;
+  color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .date-picker {
+      margin-left: 10px;
+      font-size: 12px;
+  }
+  .pages {
+      float: right;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .date-picker {
+      margin-left: 10px;
+  }
+  .pages {
+      float: right;
+  }
+  .form-search{
+
+         width: 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .date-picker {
+      margin-left: 10px;
+  }
+  .pages {
+      float: right;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .date-picker {
+      margin-left: 10px;
+  }
+  .pages {
+      float: right;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .date-picker {
+      margin-left: 50px;
+  }
+  .pages {
+      float: right;
+  }
+}

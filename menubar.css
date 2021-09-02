@@ -1,0 +1,138 @@
+@media only screen and (min-width: 1200px) {
+    .navbar{
+         display: flex;
+         height: 80px;
+         flex-direction: column;
+         width: 100%;
+        background: rgb(241, 220, 252);
+
+    } .general_logo_login_page { 
+            width: 50px;
+            height: 45px;
+            margin-left: 1px;
+          }
+          .general_login_page { 
+            width: auto;
+            height: 50px;
+          }
+          .physio-text{
+            font-size: 20px;
+            font-weight: lighter;
+            margin-top: 48px;
+            margin-left:-120px;
+            font-family:Rye;
+            text-shadow:3px 3px rgb(207, 205, 205);
+            color:linear-gradient(#e7e7ee,#d5d3ee,#d3f8e7);
+          }
+          .icons-nav{ 
+              margin-right: 500px;  
+              margin-top: 10px;         
+              color:rgb(30, 30, 78);
+              text-decoration: none;
+              transition-duration: 0.5s;
+          }
+        .dropdown-menu show {
+            position: absolute;
+            top: 25px;
+            left: 0px;
+            margin: 0px;
+            right: auto;
+            bottom: auto;
+            transform: translate(15px, 41px);
+        }
+        
+          .dropdown-item :hover{
+            color:rgb(194, 191, 191);
+          }
+          .nav-link{
+            color: rgb(30, 30, 78);
+            margin-left: -10px;
+          }
+          .right-icons{
+            display: flex;
+           margin-top: -100px;
+          margin-left: 850px;
+          }
+          .drop-css{
+            background: none;
+            border: none;
+            padding-left: 15px;
+          }
+        
+          .drop-toggle{
+            background: none;
+            border: none;
+          }
+          .drop-css :hover{
+            color:rgb(194, 191, 191);
+            border-color: none;
+          }   
+          .drop-toggle :hover{
+            color:rgb(194, 191, 191);
+            border: none;
+          }   
+
+}
+@media only screen and (max-width: 1200px) {
+  .navbar{
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    /* width: 100%; */
+   background: rgb(223, 189, 241);
+
+} 
+.general_logo_login_page { 
+       width: 50px;
+       height: 45px;   
+     }
+     .general_login_page { 
+       width: auto;
+       height: 50px;
+     }
+     .physio-text{
+       font-size: 25px;
+       font-weight: bolder;
+       /* margin-top: 39px;
+       margin-left:-100px; */
+       font-family:Akronim;
+       text-shadow:3px 3px rgb(184, 181, 181);
+       color:linear-gradient(#e7e7ee,#d5d3ee,#d3f8e7);
+     }
+     
+     .icons-nav{ 
+       margin: 0;
+       padding: 0;
+       background:white;
+    display: block;
+    flex-direction: column;
+    margin-left: -26rem;
+    margin-top: 3.2rem;
+    color: rgb(30, 30, 78);
+     }
+    
+    
+     .nav-link{
+      color: rgb(30, 30, 78);
+      
+     }
+     .right-icons{
+       display: flex;
+      margin-top: -100px;
+     margin-left: 950px;
+     }
+     .drop-css{
+       background: none;
+       border: none;
+       /* padding-left: 15px; */
+     }
+     .drop-toggle{
+       background: none;
+       border: none;
+     }
+     .drop-css :hover{
+       background:rgb(255, 244, 244);
+       border-color: none;
+     }      
+
+}
